@@ -2,6 +2,9 @@
 
 ![GitHub Logo](docs/src/assets/logo.svg)
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://matos.dev/Basinhopping.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://matos.dev/Basinhopping.jl/dev)
+
 ## Description
 
 Julia implementation of the basinhopping global optimization algorithm. This algorithm attempts to find the global minimum of a given function by successively performing a local optimization followed by a perturbation of the optimal parameters. This allows the algorithm to "jump" between local minima until the global one is found. An acceptance test determines whether a "jump" is performed or not.
@@ -59,12 +62,12 @@ To implement a custom perturbation, create a subtype of `StepTaker` and implemen
 
 The package can be installed with Pkg.add
 ```julia
-julia> using Pkg; Pkg.add("https://github.com/gamatos/Basinhopping.jl.git")
+julia> using Pkg; Pkg.add("Basinhopping")
 ```
 
 or through the pkg REPL mode by typing
 ```
-] add https://github.com/gamatos/Basinhopping.jl.git
+] add Basinhopping
 ```
 ## References
 

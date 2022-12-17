@@ -57,12 +57,12 @@ To implement a custom perturbation, create a subtype of `StepTaker` and implemen
 
 The package can be installed with Pkg.add
 ```julia
-julia> using Pkg; Pkg.add("https://github.com/gamatos/Basinhopping.jl.git")
+julia> using Pkg; Pkg.add("Basinhopping")
 ```
 
 or through the pkg REPL mode by typing
 ```
-] add https://github.com/gamatos/Basinhopping.jl.git
+] add Basinhopping
 ```
 ## References
 
