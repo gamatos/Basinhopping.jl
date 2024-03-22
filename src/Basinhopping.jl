@@ -311,7 +311,7 @@ function basinhopping(optimizer, x0, parameters::BasinhoppingParams = Basinhoppi
         nstep += 1
         
         # periodically update parameter displacement
-        #update!(step_taker, nstep, naccept)
+        update!(step_taker, nstep, naccept)
 
         # displace parameters using provided method
         copy!(x_after_step, x)
