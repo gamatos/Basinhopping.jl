@@ -1,7 +1,7 @@
 name = "Basinhopping"
 uuid = "9e7568c4-705a-47cd-b25f-0976344ae296"
-authors = ["Gabriel Matos <pygdfm@leeds.ac.uk>"]
-version = "0.1.0"
+authors = ["Gabriel Matos <gabriel.matos@quantinuum.com>"]
+version = "0.1.1"
 
 [deps]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
